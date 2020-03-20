@@ -436,7 +436,7 @@ a {
 }
 
 .body-inner{
-    padding-top: 130px;
+    padding-top: 170px;
     padding-bottom: 40px;
 }
 
@@ -473,6 +473,25 @@ a {
     line-height: 28px;
     font-weight: 400;
     margin: 0 0 40px 0;
+}
+
+.homepage{
+    display: flex;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+.homepage span{
+    color: #000;
+}
+.homepage a{
+    color: #1e73be;
+    transition: 0.5s;
+}
+.homepage a:hover{
+    opacity: 0.7;
+}
+.homepage__line{
+    padding: 0 5px;
 }
 
 @media (max-width: 1300px){
@@ -526,6 +545,9 @@ a {
 }
 
 @media (max-width: 767px) {
+    .body-inner{
+        padding-top: 120px;
+    }
 	body.lock{
 		overflow: hidden;
 	}
